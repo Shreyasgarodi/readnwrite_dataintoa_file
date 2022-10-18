@@ -1,0 +1,5 @@
+var=open('text file name.TXT','r+')
+h=var.read()
+var.seek(0)
+var.write('hai')
+var.close()
